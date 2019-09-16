@@ -1,0 +1,256 @@
+2019-09-10 10:46:52.566  INFO 25618 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 25618 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:46:52.575  INFO 25618 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:46:52.662  INFO 25618 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:46:52.662  INFO 25618 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:46:54.609  INFO 25618 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d2a9ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:46:55.254  INFO 25618 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:46:55.306  INFO 25618 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:46:55.307  INFO 25618 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:46:55.648  INFO 25618 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:46:55.648  INFO 25618 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2986 ms
+2019-09-10 10:46:57.193  INFO 25618 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:46:57.789  INFO 25618 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:46:57.799  INFO 25618 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:46:57.956  INFO 25618 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:46:57.961  INFO 25618 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 21.675 seconds (JVM running for 23.21)
+2019-09-10 10:47:31.633  INFO 25618 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 10:47:31.635  INFO 25618 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 10:47:31.686  INFO 25618 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 51 ms
+2019-09-10 10:47:34.242  INFO 25618 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 10:47:39.661  INFO 25618 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 10:47:39.829  INFO 25618 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 10:49:49.617  INFO 25618 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:49:49.620  INFO 25618 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 10:49:49.770  INFO 25618 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 10:50:24.071  INFO 26365 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 26365 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:50:24.075  INFO 26365 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:50:24.144  INFO 26365 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:50:24.145  INFO 26365 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:50:25.837  INFO 26365 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6d2f625] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:50:26.576  INFO 26365 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:50:26.665  INFO 26365 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:50:26.666  INFO 26365 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:50:26.942  INFO 26365 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:50:26.942  INFO 26365 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2797 ms
+2019-09-10 10:50:28.334  INFO 26365 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:50:28.923  INFO 26365 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:50:28.941  INFO 26365 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:50:29.099  INFO 26365 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:50:29.106  INFO 26365 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 20.792 seconds (JVM running for 22.348)
+2019-09-10 10:50:39.907  INFO 26365 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 10:50:39.909  INFO 26365 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 10:50:39.923  INFO 26365 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-09-10 10:50:44.232  INFO 26365 --- [http-nio-8081-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 10:50:49.607  INFO 26365 --- [http-nio-8081-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 10:50:49.692  INFO 26365 --- [http-nio-8081-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 10:52:00.145  INFO 26365 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:52:00.149  INFO 26365 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 10:52:00.316  INFO 26365 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 10:52:33.485  INFO 26829 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 26829 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:52:33.487  INFO 26829 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:52:33.540  INFO 26829 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:52:33.540  INFO 26829 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:52:35.436  INFO 26829 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2baa9940] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:52:36.058  INFO 26829 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:52:36.111  INFO 26829 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:52:36.113  INFO 26829 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:52:36.461  INFO 26829 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:52:36.461  INFO 26829 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2921 ms
+2019-09-10 10:52:38.613  INFO 26829 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:52:39.358  INFO 26829 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:52:39.370  INFO 26829 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:52:39.563  INFO 26829 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:52:39.604  INFO 26829 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 22.001 seconds (JVM running for 23.91)
+2019-09-10 10:52:52.314  INFO 26829 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 10:52:52.316  INFO 26829 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 10:52:52.329  INFO 26829 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-09-10 10:52:53.848  INFO 26829 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 10:52:59.240  INFO 26829 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 10:52:59.308  INFO 26829 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 10:55:15.160  INFO 26829 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:55:15.165  INFO 26829 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 10:55:15.424  INFO 26829 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 10:55:49.336  INFO 27487 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 27487 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:55:49.343  INFO 27487 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:55:49.403  INFO 27487 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:55:49.404  INFO 27487 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:55:51.121  INFO 27487 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef033e20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:55:51.778  INFO 27487 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:55:51.831  INFO 27487 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:55:51.831  INFO 27487 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:55:52.110  INFO 27487 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:55:52.110  INFO 27487 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2706 ms
+2019-09-10 10:55:53.518  INFO 27487 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:55:54.072  INFO 27487 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:55:54.086  INFO 27487 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:55:54.228  INFO 27487 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:55:54.233  INFO 27487 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 20.667 seconds (JVM running for 22.292)
+2019-09-10 10:56:19.850  INFO 27487 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 10:56:19.851  INFO 27487 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 10:56:19.873  INFO 27487 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-09-10 10:56:21.534  INFO 27487 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 10:56:26.935  INFO 27487 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 10:56:27.021  INFO 27487 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 10:57:08.166  INFO 27487 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:57:08.169  INFO 27487 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 10:57:10.904  INFO 27487 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 10:57:40.164  INFO 27866 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 27866 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:57:40.167  INFO 27866 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:57:40.224  INFO 27866 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:57:40.225  INFO 27866 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:57:42.229  INFO 27866 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ca36d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:57:42.893  INFO 27866 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:57:42.932  INFO 27866 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:57:42.932  INFO 27866 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:57:43.192  INFO 27866 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:57:43.192  INFO 27866 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2967 ms
+2019-09-10 10:57:44.712  INFO 27866 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:57:45.340  INFO 27866 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:57:45.375  INFO 27866 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:57:45.623  INFO 27866 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:57:45.630  INFO 27866 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 21.489 seconds (JVM running for 23.165)
+2019-09-10 10:58:19.287  INFO 27866 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 10:58:19.289  INFO 27866 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 10:58:19.307  INFO 27866 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-09-10 10:58:22.346  INFO 27866 --- [http-nio-8081-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 10:58:27.688  INFO 27866 --- [http-nio-8081-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 10:58:27.784  INFO 27866 --- [http-nio-8081-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 10:59:04.439  INFO 27866 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:59:04.444  INFO 27866 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 10:59:04.925  INFO 27866 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 10:59:36.344  INFO 28282 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 28282 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 10:59:36.347  INFO 28282 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 10:59:36.404  INFO 28282 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 10:59:36.405  INFO 28282 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 10:59:38.368  INFO 28282 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$acf9eea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 10:59:39.165  INFO 28282 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 10:59:39.248  INFO 28282 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 10:59:39.249  INFO 28282 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 10:59:39.493  INFO 28282 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 10:59:39.493  INFO 28282 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3088 ms
+2019-09-10 10:59:40.988  INFO 28282 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 10:59:41.674  INFO 28282 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 10:59:41.702  INFO 28282 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 10:59:41.856  INFO 28282 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 10:59:41.862  INFO 28282 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 21.347 seconds (JVM running for 23.031)
+2019-09-10 11:00:09.753  INFO 28282 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 11:00:09.755  INFO 28282 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 11:00:09.772  INFO 28282 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-09-10 11:00:11.371  INFO 28282 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 11:00:16.757  INFO 28282 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 11:00:16.855  INFO 28282 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 11:00:54.777  INFO 28282 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:00:54.779  INFO 28282 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 11:00:58.769  INFO 28282 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 11:01:29.102  INFO 28671 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 28671 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 11:01:29.105  INFO 28671 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 11:01:29.155  INFO 28671 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 11:01:29.155  INFO 28671 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 11:01:30.920  INFO 28671 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba2d389a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 11:01:31.626  INFO 28671 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 11:01:31.673  INFO 28671 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 11:01:31.673  INFO 28671 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 11:01:31.949  INFO 28671 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 11:01:31.949  INFO 28671 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2794 ms
+2019-09-10 11:01:33.361  INFO 28671 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:01:33.927  INFO 28671 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 11:01:33.955  INFO 28671 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 11:01:34.147  INFO 28671 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 11:01:34.167  INFO 28671 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 20.793 seconds (JVM running for 22.507)
+2019-09-10 11:02:18.944  INFO 28671 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 11:02:18.945  INFO 28671 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 11:02:18.968  INFO 28671 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-09-10 11:02:20.390  INFO 28671 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 11:02:25.753  INFO 28671 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 11:02:25.826  INFO 28671 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 11:03:18.018  INFO 28671 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:03:18.020  INFO 28671 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 11:03:18.227  INFO 28671 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 11:03:46.813  INFO 29132 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 29132 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 11:03:46.816  INFO 29132 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 11:03:46.866  INFO 29132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 11:03:46.867  INFO 29132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 11:03:49.597  INFO 29132 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$350d04b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 11:03:50.218  INFO 29132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 11:03:50.269  INFO 29132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 11:03:50.270  INFO 29132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 11:03:50.550  INFO 29132 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 11:03:50.551  INFO 29132 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3684 ms
+2019-09-10 11:03:52.435  INFO 29132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:03:53.368  INFO 29132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 11:03:53.386  INFO 29132 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 11:03:53.625  INFO 29132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 11:03:53.631  INFO 29132 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 22.594 seconds (JVM running for 24.137)
+2019-09-10 11:04:30.250  INFO 29132 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:04:55.589  INFO 29355 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 29355 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 11:04:55.591  INFO 29355 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 11:04:55.643  INFO 29355 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 11:04:55.643  INFO 29355 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 11:04:57.369  INFO 29355 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3af4b368] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 11:04:58.047  INFO 29355 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 11:04:58.099  INFO 29355 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 11:04:58.099  INFO 29355 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 11:04:58.388  INFO 29355 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 11:04:58.388  INFO 29355 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2745 ms
+2019-09-10 11:04:59.767  INFO 29355 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:05:00.319  INFO 29355 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 11:05:00.333  INFO 29355 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 11:05:00.496  INFO 29355 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 11:05:00.501  INFO 29355 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 20.635 seconds (JVM running for 22.324)
+2019-09-10 11:05:24.460  INFO 29355 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 11:05:24.461  INFO 29355 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 11:05:24.479  INFO 29355 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-09-10 11:05:25.928  INFO 29355 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 11:05:31.451  INFO 29355 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 11:05:31.549  INFO 29355 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 11:06:10.416  INFO 29355 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:06:10.418  INFO 29355 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 11:06:11.597  INFO 29355 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 11:06:40.691  INFO 29727 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 29727 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 11:06:40.694  INFO 29727 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 11:06:40.749  INFO 29727 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 11:06:40.749  INFO 29727 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 11:06:42.644  INFO 29727 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b440b29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 11:06:43.302  INFO 29727 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 11:06:43.372  INFO 29727 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 11:06:43.376  INFO 29727 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 11:06:43.665  INFO 29727 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 11:06:43.665  INFO 29727 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2916 ms
+2019-09-10 11:06:45.241  INFO 29727 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:06:45.908  INFO 29727 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 11:06:45.923  INFO 29727 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 11:06:46.095  INFO 29727 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 11:06:46.102  INFO 29727 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 21.161 seconds (JVM running for 22.646)
+2019-09-10 11:07:03.431  INFO 29727 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 11:07:03.433  INFO 29727 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 11:07:03.447  INFO 29727 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-09-10 11:07:05.038  INFO 29727 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 11:07:10.713  INFO 29727 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 11:07:10.791  INFO 29727 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 11:07:48.846  INFO 29727 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:07:48.847  INFO 29727 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 11:07:52.176  INFO 29727 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-10 11:08:20.664  INFO 30091 --- [restartedMain] com.cms.CmsMigrateApplication            : Starting CmsMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 30091 (/Users/alex/Downloads/tk/cms-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-10 11:08:20.667  INFO 30091 --- [restartedMain] com.cms.CmsMigrateApplication            : The following profiles are active: dev
+2019-09-10 11:08:20.723  INFO 30091 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-10 11:08:20.723  INFO 30091 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-10 11:08:22.516  INFO 30091 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47facf1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 11:08:23.291  INFO 30091 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-09-10 11:08:23.346  INFO 30091 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 11:08:23.346  INFO 30091 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-10 11:08:23.630  INFO 30091 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring embedded WebApplicationContext
+2019-09-10 11:08:23.630  INFO 30091 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2906 ms
+2019-09-10 11:08:25.108  INFO 30091 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:08:25.769  INFO 30091 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 11:08:25.782  INFO 30091 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 11:08:25.913  INFO 30091 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/cms-migrate'
+2019-09-10 11:08:25.918  INFO 30091 --- [restartedMain] com.cms.CmsMigrateApplication            : Started CmsMigrateApplication in 21.076 seconds (JVM running for 22.511)
+2019-09-10 11:08:48.873  INFO 30091 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/cms-migrate]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-10 11:08:48.874  INFO 30091 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-10 11:08:48.899  INFO 30091 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-09-10 11:08:50.701  INFO 30091 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-10 11:08:56.074  INFO 30091 --- [http-nio-8081-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-09-10 11:08:56.143  INFO 30091 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-10 11:14:03.079  INFO 30091 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 11:14:03.083  INFO 30091 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-10 11:14:03.225  INFO 30091 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

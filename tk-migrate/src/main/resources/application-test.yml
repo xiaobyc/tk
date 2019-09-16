@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    first:
+      type: com.zaxxer.hikari.HikariDataSource
+      driverClassName: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://192.168.30.48:24187/hx_tk_admin?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&allowMultiQueries=true
+    #username: quesStaff
+    #password: 8Jm@Tybfg
+      url: jdbc:mysql://192.168.30.48:24187/hx_tk_admin?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&allowMultiQueries=true
+      username: quesStaff
+      password: 8Jm@Tybfg
+      hikari:
+        connection-test-query: SELECT 1 FROM DUAL
+        minimum-idle: 10
+        maximum-pool-size: 100
+        max-lifetime: 1800000
+
+  data:
+    mongodb:
+      username: query
+      password: query_666
+      database: WHTY_EDU_CMS
+      host: 192.168.6.60
+      port: 30000
+  main:
+    banner-mode: "off"

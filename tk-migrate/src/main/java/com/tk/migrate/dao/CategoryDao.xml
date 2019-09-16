@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tk.migrate.dao.CategoryDao">
+
+    <resultMap id="categoryMap" type="com.tk.migrate.model.Category">
+        <result property="id" column="id"></result>
+        <result property="subjectId" column="ty_subject_id"></result>
+        <result property="categoryName" column="question_category_name"></result>
+    </resultMap>
+
+    <select id="selectCategoryList" resultMap="categoryMap">
+        select  * from admin_category where  question_category_name=#{eduQuesTypeName}
+         and  category_status=1
+    </select>
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cms.migrate.dao.ExamPointMapper">
+
+
+    <resultMap id="examPointMap" type="com.cms.migrate.model.ExamPoint">
+        <result column="POINT_ID" property="pointId"></result>
+        <result column="POINT_NAME" property="pointName"></result>
+        <result column="POINT_PID" property="pointPid"></result>
+        <result column="CMS_PERIOD_ID" property="periodId"></result>
+        <result column="CMS_SUBJECT_ID" property="subjectId"></result>
+        <result column="STATUS" property="status"></result>
+        <result column="ISLEAF" property="isLeaf"></result>
+        <result column="LEV" property="lev"></result>
+    </resultMap>
+
+    <select id="selectExamPoint" resultMap="examPointMap">
+    select  temp.* from (   select * from cmsuser.T_EXAMPOINT where CMS_SUBJECT_ID=#{subjectId} and CMS_PERIOD_ID=#{periodId} )temp
+    start with temp.POINT_PID is null connect by prior temp.POINT_ID = temp.POINT_PID
+    </select>
+</mapper>

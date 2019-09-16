@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521/nedu
+    username: query
+    password: wO2m3#5HcE
+    hikari:
+      connection-test-query: SELECT 1  from dual
+      minimum-idle: 10
+      maximum-pool-size: 100
+      max-lifetime: 1800000
+  main:
+    banner-mode: "off"

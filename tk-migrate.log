@@ -1,0 +1,820 @@
+2019-09-16 15:44:33.308  INFO 78933 --- [restartedMain] com.tk.TkMigrateApplication              : Starting TkMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 78933 (/Users/alex/Downloads/tk/tk-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-16 15:44:33.316  INFO 78933 --- [restartedMain] com.tk.TkMigrateApplication              : The following profiles are active: oracle
+2019-09-16 15:44:33.432  INFO 78933 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-16 15:44:33.432  INFO 78933 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-16 15:44:35.180  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminKnowledgeDao' and 'com.tk.migrate.dao.AdminKnowledgeDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.181  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminPointRelationDao' and 'com.tk.migrate.dao.AdminPointRelationDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.181  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminQuestionKnowDao' and 'com.tk.migrate.dao.AdminQuestionKnowDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.182  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'categoryDao' and 'com.tk.migrate.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.183  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'questionDao' and 'com.tk.migrate.dao.QuestionDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.183  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'subjectDao' and 'com.tk.migrate.dao.SubjectDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:44:35.183  WARN 78933 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.tk.*.dao]' package. Please check your configuration.
+2019-09-16 15:44:37.185  INFO 78933 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-16 15:44:37.473  INFO 78933 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211ms. Found 0 repository interfaces.
+2019-09-16 15:44:40.385  INFO 78933 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bbfd64b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 15:44:43.152  INFO 78933 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-16 15:44:43.204  INFO 78933 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 15:44:43.205  INFO 78933 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-16 15:44:44.188  INFO 78933 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tk-migrate]    : Initializing Spring embedded WebApplicationContext
+2019-09-16 15:44:44.189  INFO 78933 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10756 ms
+2019-09-16 15:44:50.845  INFO 78933 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:30001], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-16 15:44:50.846  INFO 78933 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server 127.0.0.1:30001 to client view of cluster
+2019-09-16 15:44:51.138  INFO 78933 --- [cluster-ClusterId{value='5d7f3d7235cb3434552fdcc5', description='null'}-127.0.0.1:30001] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1092}] to 127.0.0.1:30001
+2019-09-16 15:44:51.154  INFO 78933 --- [cluster-ClusterId{value='5d7f3d7235cb3434552fdcc5', description='null'}-127.0.0.1:30001] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:30001, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 2]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=8542134}
+2019-09-16 15:44:51.156  INFO 78933 --- [cluster-ClusterId{value='5d7f3d7235cb3434552fdcc5', description='null'}-127.0.0.1:30001] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-09-16 15:44:52.179  INFO 78933 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-16 15:44:52.865  INFO 78933 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-16 15:44:54.074 ERROR 78933 --- [restartedMain] o.m.spring.mapper.MapperFactoryBean      : Error while adding the mapper 'interface com.tk.migrate.dao.AdminKnowledgeDao' to configuration.
+
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:193) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:140) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:86) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:121) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at com.tk.TkMigrateApplication.main(TkMigrateApplication.java:14) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112) ~[mybatis-3.4.6.jar:3.4.6]
+	... 56 common frames omitted
+
+2019-09-16 15:44:54.076  WARN 78933 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataInitController': Unsatisfied dependency expressed through field 'adminKnowledgeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminKnowledgeServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminKnowledgeDao' defined in file [/Users/alex/Downloads/tk/tk-migrate/target/classes/com/tk/migrate/dao/AdminKnowledgeDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+2019-09-16 15:44:54.083  INFO 78933 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-16 15:44:54.108  INFO 78933 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-16 15:44:54.120  INFO 78933 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-16 15:44:54.172  INFO 78933 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-16 15:44:54.179 ERROR 78933 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataInitController': Unsatisfied dependency expressed through field 'adminKnowledgeService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminKnowledgeServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminKnowledgeDao' defined in file [/Users/alex/Downloads/tk/tk-migrate/target/classes/com/tk/migrate/dao/AdminKnowledgeDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at com.tk.TkMigrateApplication.main(TkMigrateApplication.java:14) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminKnowledgeServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminKnowledgeDao' defined in file [/Users/alex/Downloads/tk/tk-migrate/target/classes/com/tk/migrate/dao/AdminKnowledgeDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminKnowledgeDao' defined in file [/Users/alex/Downloads/tk/tk-migrate/target/classes/com/tk/migrate/dao/AdminKnowledgeDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 47 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/tk/migrate/dao/AdminKnowledgeDao.xml'. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:193) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:140) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:86) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:121) ~[mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	... 50 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.tk.migrate.dao.AdminKnowledgeDao' but found 'com.jygc.HxPoint.dao.AdminKnowledgeDao'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112) ~[mybatis-3.4.6.jar:3.4.6]
+	... 56 common frames omitted
+
+2019-09-16 15:45:53.245  INFO 79183 --- [restartedMain] com.tk.TkMigrateApplication              : Starting TkMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 79183 (/Users/alex/Downloads/tk/tk-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-16 15:45:53.249  INFO 79183 --- [restartedMain] com.tk.TkMigrateApplication              : The following profiles are active: oracle
+2019-09-16 15:45:53.315  INFO 79183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-16 15:45:53.316  INFO 79183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-16 15:45:54.454  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminKnowledgeDao' and 'com.tk.migrate.dao.AdminKnowledgeDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.454  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminPointRelationDao' and 'com.tk.migrate.dao.AdminPointRelationDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.455  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminQuestionKnowDao' and 'com.tk.migrate.dao.AdminQuestionKnowDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.455  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'categoryDao' and 'com.tk.migrate.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.455  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'questionDao' and 'com.tk.migrate.dao.QuestionDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.455  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'subjectDao' and 'com.tk.migrate.dao.SubjectDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 15:45:54.456  WARN 79183 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.tk.*.dao]' package. Please check your configuration.
+2019-09-16 15:45:55.055  INFO 79183 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-16 15:45:55.119  INFO 79183 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2019-09-16 15:45:55.974  INFO 79183 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$838aad54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 15:45:56.912  INFO 79183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-16 15:45:56.987  INFO 79183 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 15:45:56.989  INFO 79183 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-16 15:45:57.223  INFO 79183 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tk-migrate]    : Initializing Spring embedded WebApplicationContext
+2019-09-16 15:45:57.223  INFO 79183 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3907 ms
+2019-09-16 15:46:03.424  INFO 79183 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:30001], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-09-16 15:46:03.425  INFO 79183 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server 127.0.0.1:30001 to client view of cluster
+2019-09-16 15:46:03.564  INFO 79183 --- [cluster-ClusterId{value='5d7f3dbb35cb34354f3c687e', description='null'}-127.0.0.1:30001] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1093}] to 127.0.0.1:30001
+2019-09-16 15:46:03.580  INFO 79183 --- [cluster-ClusterId{value='5d7f3dbb35cb34354f3c687e', description='null'}-127.0.0.1:30001] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:30001, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 2]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=10635024}
+2019-09-16 15:46:03.582  INFO 79183 --- [cluster-ClusterId{value='5d7f3dbb35cb34354f3c687e', description='null'}-127.0.0.1:30001] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-09-16 15:46:04.654  INFO 79183 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-16 15:46:05.170  INFO 79183 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-16 15:46:06.625  INFO 79183 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 15:46:07.446  INFO 79183 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 15:46:07.465  INFO 79183 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-16 15:46:07.633  INFO 79183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/tk-migrate'
+2019-09-16 15:46:07.638  INFO 79183 --- [restartedMain] com.tk.TkMigrateApplication              : Started TkMigrateApplication in 30.194 seconds (JVM running for 31.68)
+2019-09-16 15:46:35.160  INFO 79183 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tk-migrate]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-16 15:46:35.161  INFO 79183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-16 15:46:35.186  INFO 79183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-09-16 15:46:37.441  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1734 updateTime cost Time=454
+2019-09-16 15:46:39.219  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1571 updateTime cost Time=207
+2019-09-16 15:46:40.926  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1535 updateTime cost Time=172
+2019-09-16 15:46:42.514  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1472 updateTime cost Time=115
+2019-09-16 15:46:44.216  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1426 updateTime cost Time=276
+2019-09-16 15:46:45.830  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1458 updateTime cost Time=156
+2019-09-16 15:46:47.619  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1672 updateTime cost Time=116
+2019-09-16 15:46:49.339  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1522 updateTime cost Time=192
+2019-09-16 15:46:51.036  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1543 updateTime cost Time=154
+2019-09-16 15:46:53.063  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1885 updateTime cost Time=142
+2019-09-16 15:46:54.730  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1505 updateTime cost Time=161
+2019-09-16 15:46:56.472  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1580 updateTime cost Time=160
+2019-09-16 15:46:58.199  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1587 updateTime cost Time=140
+2019-09-16 15:46:59.798  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1435 updateTime cost Time=164
+2019-09-16 15:47:01.457  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1514 updateTime cost Time=144
+2019-09-16 15:47:03.247  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1644 updateTime cost Time=146
+2019-09-16 15:47:04.942  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1507 updateTime cost Time=186
+2019-09-16 15:47:06.635  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1514 updateTime cost Time=178
+2019-09-16 15:47:08.468  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1661 updateTime cost Time=171
+2019-09-16 15:47:10.209  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1564 updateTime cost Time=176
+2019-09-16 15:47:11.802  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1444 updateTime cost Time=148
+2019-09-16 15:47:13.700  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1605 updateTime cost Time=291
+2019-09-16 15:47:15.443  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1557 updateTime cost Time=185
+2019-09-16 15:47:17.171  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1557 updateTime cost Time=171
+2019-09-16 15:47:18.968  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1644 updateTime cost Time=152
+2019-09-16 15:47:20.568  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1427 updateTime cost Time=173
+2019-09-16 15:47:22.123  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1397 updateTime cost Time=158
+2019-09-16 15:47:23.659  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1426 updateTime cost Time=110
+2019-09-16 15:47:25.230  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1412 updateTime cost Time=159
+2019-09-16 15:47:26.742  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1373 updateTime cost Time=137
+2019-09-16 15:47:28.294  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1419 updateTime cost Time=132
+2019-09-16 15:47:29.940  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1508 updateTime cost Time=138
+2019-09-16 15:47:31.530  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1480 updateTime cost Time=110
+2019-09-16 15:47:33.202  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1534 updateTime cost Time=138
+2019-09-16 15:47:34.728  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1409 updateTime cost Time=115
+2019-09-16 15:47:36.378  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1505 updateTime cost Time=144
+2019-09-16 15:47:38.130  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1595 updateTime cost Time=157
+2019-09-16 15:47:39.709  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1483 updateTime cost Time=95
+2019-09-16 15:47:41.273  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1446 updateTime cost Time=118
+2019-09-16 15:47:42.882  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1519 updateTime cost Time=90
+2019-09-16 15:47:44.679  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1645 updateTime cost Time=151
+2019-09-16 15:47:46.405  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1589 updateTime cost Time=136
+2019-09-16 15:47:47.941  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1399 updateTime cost Time=136
+2019-09-16 15:47:49.533  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1503 updateTime cost Time=89
+2019-09-16 15:47:51.241  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1548 updateTime cost Time=160
+2019-09-16 15:47:52.832  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1428 updateTime cost Time=163
+2019-09-16 15:47:54.524  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1533 updateTime cost Time=159
+2019-09-16 15:47:56.168  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1506 updateTime cost Time=137
+2019-09-16 15:47:57.905  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1576 updateTime cost Time=161
+2019-09-16 15:47:59.604  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1572 updateTime cost Time=126
+2019-09-16 15:48:01.403  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1621 updateTime cost Time=178
+2019-09-16 15:48:03.124  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1602 updateTime cost Time=119
+2019-09-16 15:48:04.754  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1494 updateTime cost Time=136
+2019-09-16 15:48:06.488  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1547 updateTime cost Time=184
+2019-09-16 15:48:08.215  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1516 updateTime cost Time=211
+2019-09-16 15:48:09.876  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1539 updateTime cost Time=121
+2019-09-16 15:48:11.494  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1447 updateTime cost Time=169
+2019-09-16 15:48:13.240  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1623 updateTime cost Time=122
+2019-09-16 15:48:14.955  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1568 updateTime cost Time=147
+2019-09-16 15:48:16.689  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1545 updateTime cost Time=189
+2019-09-16 15:48:18.350  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1545 updateTime cost Time=115
+2019-09-16 15:48:20.074  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1526 updateTime cost Time=197
+2019-09-16 15:48:21.631  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1420 updateTime cost Time=136
+2019-09-16 15:48:23.376  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1611 updateTime cost Time=134
+2019-09-16 15:48:24.934  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1439 updateTime cost Time=119
+2019-09-16 15:48:26.547  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1482 updateTime cost Time=130
+2019-09-16 15:48:28.191  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1507 updateTime cost Time=137
+2019-09-16 15:48:29.842  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1504 updateTime cost Time=146
+2019-09-16 15:48:31.484  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1487 updateTime cost Time=154
+2019-09-16 15:48:33.187  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1586 updateTime cost Time=117
+2019-09-16 15:48:34.762  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1407 updateTime cost Time=166
+2019-09-16 15:48:36.396  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1490 updateTime cost Time=143
+2019-09-16 15:48:38.003  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1496 updateTime cost Time=111
+2019-09-16 15:48:39.581  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1418 updateTime cost Time=160
+2019-09-16 15:48:41.274  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1582 updateTime cost Time=109
+2019-09-16 15:48:43.004  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1634 updateTime cost Time=95
+2019-09-16 15:48:44.914  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1547 updateTime cost Time=363
+2019-09-16 15:48:46.520  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1502 updateTime cost Time=103
+2019-09-16 15:48:48.234  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1612 updateTime cost Time=102
+2019-09-16 15:48:49.898  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1541 updateTime cost Time=122
+2019-09-16 15:48:51.584  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1505 updateTime cost Time=181
+2019-09-16 15:48:53.285  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1565 updateTime cost Time=136
+2019-09-16 15:48:54.971  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1540 updateTime cost Time=146
+2019-09-16 15:48:56.616  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1478 updateTime cost Time=167
+2019-09-16 15:48:58.273  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1548 updateTime cost Time=108
+2019-09-16 15:48:59.972  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1525 updateTime cost Time=174
+2019-09-16 15:49:01.700  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1568 updateTime cost Time=160
+2019-09-16 15:49:03.402  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1589 updateTime cost Time=113
+2019-09-16 15:49:05.087  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1530 updateTime cost Time=155
+2019-09-16 15:49:06.817  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1571 updateTime cost Time=159
+2019-09-16 15:49:08.528  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1590 updateTime cost Time=120
+2019-09-16 15:49:10.195  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1517 updateTime cost Time=150
+2019-09-16 15:49:11.952  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1594 updateTime cost Time=163
+2019-09-16 15:49:13.670  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1577 updateTime cost Time=140
+2019-09-16 15:49:15.421  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1597 updateTime cost Time=154
+2019-09-16 15:49:17.058  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1483 updateTime cost Time=153
+2019-09-16 15:49:18.736  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1535 updateTime cost Time=142
+2019-09-16 15:49:20.473  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1550 updateTime cost Time=187
+2019-09-16 15:49:22.205  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1556 updateTime cost Time=176
+2019-09-16 15:49:23.807  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1459 updateTime cost Time=143
+2019-09-16 15:49:25.380  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1417 updateTime cost Time=155
+2019-09-16 15:49:27.108  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1562 updateTime cost Time=165
+2019-09-16 15:49:28.716  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1470 updateTime cost Time=138
+2019-09-16 15:49:30.369  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1501 updateTime cost Time=150
+2019-09-16 15:49:32.025  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1484 updateTime cost Time=170
+2019-09-16 15:49:33.748  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1585 updateTime cost Time=138
+2019-09-16 15:49:35.492  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1587 updateTime cost Time=156
+2019-09-16 15:49:37.228  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1581 updateTime cost Time=155
+2019-09-16 15:49:38.852  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1486 updateTime cost Time=137
+2019-09-16 15:49:40.508  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1497 updateTime cost Time=159
+2019-09-16 15:49:42.272  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1588 updateTime cost Time=175
+2019-09-16 15:49:44.009  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1564 updateTime cost Time=173
+2019-09-16 15:49:45.724  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1560 updateTime cost Time=154
+2019-09-16 15:49:47.393  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1509 updateTime cost Time=157
+2019-09-16 15:49:48.963  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1460 updateTime cost Time=109
+2019-09-16 15:49:50.665  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1527 updateTime cost Time=175
+2019-09-16 15:49:52.391  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1567 updateTime cost Time=158
+2019-09-16 15:49:54.017  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1474 updateTime cost Time=152
+2019-09-16 15:49:55.656  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1488 updateTime cost Time=151
+2019-09-16 15:49:57.292  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1488 updateTime cost Time=148
+2019-09-16 15:49:59.034  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1592 updateTime cost Time=149
+2019-09-16 15:50:00.789  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1590 updateTime cost Time=165
+2019-09-16 15:50:02.617  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1684 updateTime cost Time=143
+2019-09-16 15:50:04.314  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1449 updateTime cost Time=247
+2019-09-16 15:50:06.017  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1543 updateTime cost Time=160
+2019-09-16 15:50:07.743  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1575 updateTime cost Time=150
+2019-09-16 15:50:09.378  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1489 updateTime cost Time=145
+2019-09-16 15:50:11.015  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1493 updateTime cost Time=143
+2019-09-16 15:50:12.620  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1487 updateTime cost Time=117
+2019-09-16 15:50:14.277  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1483 updateTime cost Time=173
+2019-09-16 15:50:15.933  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1507 updateTime cost Time=149
+2019-09-16 15:50:18.032  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1594 updateTime cost Time=504
+2019-09-16 15:50:19.735  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1540 updateTime cost Time=163
+2019-09-16 15:50:21.419  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1498 updateTime cost Time=186
+2019-09-16 15:50:23.042  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1528 updateTime cost Time=95
+2019-09-16 15:50:24.766  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1550 updateTime cost Time=173
+2019-09-16 15:50:26.451  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1531 updateTime cost Time=154
+2019-09-16 15:50:28.073  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1514 updateTime cost Time=108
+2019-09-16 15:50:29.730  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1506 updateTime cost Time=150
+2019-09-16 15:50:31.410  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1487 updateTime cost Time=193
+2019-09-16 15:50:33.143  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1579 updateTime cost Time=153
+2019-09-16 15:50:34.840  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1471 updateTime cost Time=226
+2019-09-16 15:50:36.581  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1517 updateTime cost Time=223
+2019-09-16 15:50:38.203  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1523 updateTime cost Time=98
+2019-09-16 15:50:39.938  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1537 updateTime cost Time=198
+2019-09-16 15:50:41.551  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1458 updateTime cost Time=155
+2019-09-16 15:50:43.220  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1577 updateTime cost Time=92
+2019-09-16 15:50:44.834  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1452 updateTime cost Time=162
+2019-09-16 15:50:51.498  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=6489 updateTime cost Time=174
+2019-09-16 15:50:53.158  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1439 updateTime cost Time=217
+2019-09-16 15:50:54.754  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1459 updateTime cost Time=137
+2019-09-16 15:50:56.463  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1571 updateTime cost Time=137
+2019-09-16 15:50:58.172  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1609 updateTime cost Time=100
+2019-09-16 15:50:59.864  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1544 updateTime cost Time=147
+2019-09-16 15:51:01.602  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1574 updateTime cost Time=164
+2019-09-16 15:51:03.209  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1494 updateTime cost Time=113
+2019-09-16 15:51:04.868  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1518 updateTime cost Time=141
+2019-09-16 15:51:06.524  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1496 updateTime cost Time=156
+2019-09-16 15:51:08.102  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1484 updateTime cost Time=94
+2019-09-16 15:51:09.802  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1545 updateTime cost Time=154
+2019-09-16 15:51:11.463  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1486 updateTime cost Time=175
+2019-09-16 15:51:13.148  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1567 updateTime cost Time=117
+2019-09-16 15:51:14.833  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1512 updateTime cost Time=160
+2019-09-16 15:51:16.472  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1442 updateTime cost Time=197
+2019-09-16 15:51:18.183  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1567 updateTime cost Time=143
+2019-09-16 15:51:20.034  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1699 updateTime cost Time=152
+2019-09-16 15:51:21.638  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1451 updateTime cost Time=153
+2019-09-16 15:51:23.320  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1530 updateTime cost Time=152
+2019-09-16 15:51:25.065  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1565 updateTime cost Time=180
+2019-09-16 15:51:26.793  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1560 updateTime cost Time=168
+2019-09-16 15:51:28.535  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1588 updateTime cost Time=153
+2019-09-16 15:51:30.181  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1489 updateTime cost Time=156
+2019-09-16 15:51:32.027  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1683 updateTime cost Time=163
+2019-09-16 15:51:33.762  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1583 updateTime cost Time=151
+2019-09-16 15:51:35.405  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1486 updateTime cost Time=157
+2019-09-16 15:51:37.160  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1584 updateTime cost Time=171
+2019-09-16 15:51:38.883  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1567 updateTime cost Time=155
+2019-09-16 15:51:40.633  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1590 updateTime cost Time=160
+2019-09-16 15:51:42.300  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1512 updateTime cost Time=155
+2019-09-16 15:51:44.226  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1660 updateTime cost Time=265
+2019-09-16 15:51:45.930  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1553 updateTime cost Time=151
+2019-09-16 15:51:47.687  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1606 updateTime cost Time=150
+2019-09-16 15:51:49.427  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1584 updateTime cost Time=155
+2019-09-16 15:51:51.166  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1585 updateTime cost Time=154
+2019-09-16 15:51:52.805  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1485 updateTime cost Time=154
+2019-09-16 15:51:54.603  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1594 updateTime cost Time=204
+2019-09-16 15:51:56.392  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1638 updateTime cost Time=150
+2019-09-16 15:51:58.029  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1482 updateTime cost Time=155
+2019-09-16 15:51:59.663  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1481 updateTime cost Time=153
+2019-09-16 15:52:01.309  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1491 updateTime cost Time=154
+2019-09-16 15:52:03.252  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1790 updateTime cost Time=153
+2019-09-16 15:52:04.998  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1583 updateTime cost Time=163
+2019-09-16 15:52:06.673  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1479 updateTime cost Time=192
+2019-09-16 15:52:08.477  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1649 updateTime cost Time=155
+2019-09-16 15:52:10.124  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1480 updateTime cost Time=167
+2019-09-16 15:52:11.982  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1702 updateTime cost Time=156
+2019-09-16 15:52:13.716  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1561 updateTime cost Time=171
+2019-09-16 15:52:15.432  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1560 updateTime cost Time=156
+2019-09-16 15:52:17.171  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1587 updateTime cost Time=152
+2019-09-16 15:52:18.806  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1487 updateTime cost Time=148
+2019-09-16 15:52:20.577  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1596 updateTime cost Time=175
+2019-09-16 15:52:22.263  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1563 updateTime cost Time=123
+2019-09-16 15:52:24.013  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1626 updateTime cost Time=124
+2019-09-16 15:52:25.891  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1721 updateTime cost Time=156
+2019-09-16 15:52:27.581  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1581 updateTime cost Time=109
+2019-09-16 15:52:29.318  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1625 updateTime cost Time=112
+2019-09-16 15:52:31.197  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1731 updateTime cost Time=148
+2019-09-16 15:52:33.129  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1695 updateTime cost Time=235
+2019-09-16 15:52:34.741  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1464 updateTime cost Time=148
+2019-09-16 15:52:36.483  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1539 updateTime cost Time=203
+2019-09-16 15:52:38.175  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1528 updateTime cost Time=163
+2019-09-16 15:52:39.771  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1477 updateTime cost Time=119
+2019-09-16 15:52:41.570  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1625 updateTime cost Time=173
+2019-09-16 15:52:43.497  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1768 updateTime cost Time=159
+2019-09-16 15:52:45.146  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1498 updateTime cost Time=151
+2019-09-16 15:52:46.833  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1573 updateTime cost Time=114
+2019-09-16 15:52:48.521  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1528 updateTime cost Time=159
+2019-09-16 15:52:50.311  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1580 updateTime cost Time=210
+2019-09-16 15:52:52.023  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1553 updateTime cost Time=158
+2019-09-16 15:52:53.900  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1661 updateTime cost Time=216
+2019-09-16 15:52:55.611  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1528 updateTime cost Time=183
+2019-09-16 15:52:57.442  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1680 updateTime cost Time=151
+2019-09-16 15:52:59.339  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1676 updateTime cost Time=220
+2019-09-16 15:53:01.090  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1612 updateTime cost Time=139
+2019-09-16 15:53:02.833  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1600 updateTime cost Time=142
+2019-09-16 15:53:04.673  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1606 updateTime cost Time=234
+2019-09-16 15:53:06.414  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1608 updateTime cost Time=132
+2019-09-16 15:53:08.241  INFO 79183 --- [http-nio-8080-exec-1] c.t.m.controller.DataInitController      : search cost Time=1632 updateTime cost Time=194
+2019-09-16 15:53:09.754  INFO 79183 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-16 15:53:09.764  INFO 79183 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-16 15:53:09.785  INFO 79183 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-16 15:53:09.890  WARN 79183 --- [http-nio-8080-exec-1] o.s.jdbc.support.SQLErrorCodesFactory    : Error while extracting database name - falling back to empty error codes
+
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:136) [spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:99) [spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.initExceptionTranslator(MyBatisExceptionTranslator.java:87) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:72) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) [mybatis-spring-1.3.2.jar:1.3.2]
+	at com.sun.proxy.$Proxy95.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) [mybatis-spring-1.3.2.jar:1.3.2]
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.executeForMany2(PageMapperMethod.java:128) [mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:98) [mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64) [mybatis-plus-core-3.0.7.1.jar:3.0.7.1]
+	at com.sun.proxy.$Proxy101.selectQuesPageList(Unknown Source) [na:na]
+	at com.tk.migrate.service.impl.QuestionServiceImpl.selectQuesPageList(QuestionServiceImpl.java:33) [classes/:na]
+	at com.tk.migrate.service.impl.QuestionServiceImpl$$FastClassBySpringCGLIB$$cb0af367.invoke(<generated>) [classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684) [spring-aop-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at com.tk.migrate.service.impl.QuestionServiceImpl$$EnhancerBySpringCGLIB$$9e0f50b6.selectQuesPageList(<generated>) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:87) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.recursiveQues(DataInitController.java:108) [classes/:na]
+	at com.tk.migrate.controller.DataInitController.fillBlankInit(DataInitController.java:77) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88) [spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114) [spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104) [spring-boot-actuator-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118) [spring-web-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_91]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_91]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 311 common frames omitted
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96) ~[HikariCP-3.2.0.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	... 312 common frames omitted
+
+2019-09-16 16:53:29.755  INFO 92658 --- [restartedMain] com.tk.TkMigrateApplication              : Starting TkMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 92658 (/Users/alex/Downloads/tk/tk-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-16 16:53:29.758  INFO 92658 --- [restartedMain] com.tk.TkMigrateApplication              : The following profiles are active: oracle
+2019-09-16 16:53:29.818  INFO 92658 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-16 16:53:29.819  INFO 92658 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-16 16:53:30.722  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminKnowledgeDao' and 'com.tk.migrate.dao.AdminKnowledgeDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.722  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminPointRelationDao' and 'com.tk.migrate.dao.AdminPointRelationDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.722  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminQuestionKnowDao' and 'com.tk.migrate.dao.AdminQuestionKnowDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.722  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'categoryDao' and 'com.tk.migrate.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.723  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'questionDao' and 'com.tk.migrate.dao.QuestionDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.723  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'subjectDao' and 'com.tk.migrate.dao.SubjectDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 16:53:30.723  WARN 92658 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.tk.*.dao]' package. Please check your configuration.
+2019-09-16 16:53:32.079  INFO 92658 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b419deb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 16:53:32.733  INFO 92658 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-16 16:53:32.789  INFO 92658 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 16:53:32.790  INFO 92658 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-16 16:53:33.144  INFO 92658 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tk-migrate]    : Initializing Spring embedded WebApplicationContext
+2019-09-16 16:53:33.145  INFO 92658 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3326 ms
+2019-09-16 16:53:34.230  INFO 92658 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-16 16:53:34.937  INFO 92658 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-16 16:53:36.170  INFO 92658 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 16:53:36.787  INFO 92658 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 16:53:36.806  INFO 92658 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-16 16:53:36.956  INFO 92658 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/tk-migrate'
+2019-09-16 16:53:36.963  INFO 92658 --- [restartedMain] com.tk.TkMigrateApplication              : Started TkMigrateApplication in 22.961 seconds (JVM running for 24.263)
+2019-09-16 16:55:22.299  INFO 92658 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-16 16:55:22.305  INFO 92658 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-16 16:55:22.328  INFO 92658 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-16 17:13:57.526  INFO 96632 --- [restartedMain] com.tk.TkMigrateApplication              : Starting TkMigrateApplication on xiaomanbodeMacBook-Pro.local with PID 96632 (/Users/alex/Downloads/tk/tk-migrate/target/classes started by alex in /Users/alex/Downloads/tk)
+2019-09-16 17:13:57.529  INFO 96632 --- [restartedMain] com.tk.TkMigrateApplication              : The following profiles are active: oracle
+2019-09-16 17:13:57.604  INFO 96632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-16 17:13:57.604  INFO 96632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-16 17:13:59.164  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminKnowledgeDao' and 'com.tk.migrate.dao.AdminKnowledgeDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.164  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminPointRelationDao' and 'com.tk.migrate.dao.AdminPointRelationDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.165  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminQuestionKnowDao' and 'com.tk.migrate.dao.AdminQuestionKnowDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.166  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'categoryDao' and 'com.tk.migrate.dao.CategoryDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.166  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'questionDao' and 'com.tk.migrate.dao.QuestionDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.166  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'subjectDao' and 'com.tk.migrate.dao.SubjectDao' mapperInterface. Bean already defined with the same name!
+2019-09-16 17:13:59.167  WARN 96632 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.tk.*.dao]' package. Please check your configuration.
+2019-09-16 17:14:00.831  INFO 96632 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d476661] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 17:14:01.954  INFO 96632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-16 17:14:02.035  INFO 96632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 17:14:02.036  INFO 96632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-16 17:14:02.434  INFO 96632 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tk-migrate]    : Initializing Spring embedded WebApplicationContext
+2019-09-16 17:14:02.436  INFO 96632 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4832 ms
+2019-09-16 17:14:03.614  INFO 96632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-16 17:14:04.233  INFO 96632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-16 17:14:05.467  INFO 96632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:14:06.109  INFO 96632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 17:14:06.123  INFO 96632 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-16 17:14:06.275  INFO 96632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/tk-migrate'
+2019-09-16 17:14:06.284  INFO 96632 --- [restartedMain] com.tk.TkMigrateApplication              : Started TkMigrateApplication in 25.103 seconds (JVM running for 27.184)
+2019-09-16 17:58:55.917  INFO 96632 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:58:55.925  INFO 96632 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-16 17:58:55.934  INFO 96632 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

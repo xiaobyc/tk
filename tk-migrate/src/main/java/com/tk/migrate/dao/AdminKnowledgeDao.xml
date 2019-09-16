@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tk.migrate.dao.AdminKnowledgeDao">
+
+    <resultMap id="knowledgeMap" type="com.tk.migrate.model.AdminKnowledge">
+        <result column="knowledge_id" property="knowledgeId"/>
+        <result column="ty_Knowledge_id" property="tyKnowledgeId"/>
+        <result column="knowledge_name" property="knowledgeName"/>
+    </resultMap>
+<select id="selectKnowledgeById" parameterType="String" resultMap="knowledgeMap">
+    SELECT ak.knowledge_id,ak.ty_knowledge_id,ak.knowledge_name FROM  admin_point_relation apr
+    LEFT JOIN admin_knowledge ak ON apr.hx_point_id=ak.ty_knowledge_id
+    WHERE apr.jxzs_point_id=#{pointId}
+</select>
+
+
+</mapper>

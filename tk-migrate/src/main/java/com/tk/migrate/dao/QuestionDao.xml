@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tk.migrate.dao.QuestionDao">
+    
+    <resultMap id="quesMap" type="com.tk.migrate.model.Question">
+        <result column="tid" property="tId"></result>
+        <result column="answer" property="answer"></result>
+        <result column="pack_num" property="packNum"></result>
+        <result column="edu_point" property="eduPoint"></result>
+    </resultMap>
+    
+    <update id="updateSubjectByPeriodAndSubjectId" >
+        update  admin_question set  subject_id=#{subjectId}   where edu_subject_id =#{subjectItem} and edu_period_id=#{periodId}
+        and user_id='9999' and source='4'
+    </update>
+
+    <update id="updateQuesTypeId">
+        <foreach collection="list" item="category" separator=";">
+            update admin_question set test_type=#{category.id} ,
+              test_type_name=#{category.categoryName}
+            where   user_id='9999'  and subject_id=#{category.subjectId} and
+                     ques_type=#{eduQuesType}
+        </foreach>
+    </update>
+
+    <select id="selectQuesPageList" resultMap="quesMap">
+        select tid,answer,pack_num  from admin_question where user_id=9999 and ques_type='t2'  and pack_num=0
+    </select>
+
+
+    <select id="selectQuesPageListForKnow"  resultMap="quesMap">
+        select tid,edu_point  from admin_question where user_id=9999
+    </select>
+
+
+    <update id="updateQuestionList">
+        <foreach collection="list" item="ques" separator=";">
+            update admin_question set answer =#{ques.answer},
+             pack_num=#{ques.packNum}
+              where tid=#{ques.tId} and user_id='9999' and ques_type='t2'
+        </foreach>
+    </update>
+</mapper>

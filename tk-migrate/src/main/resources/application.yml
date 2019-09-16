@@ -1,0 +1,32 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    #max-threads: 1000
+    #min-spare-threads: 30
+  port: 8080
+  servlet:
+    context-path: /tk-migrate
+  #address: 127.0.0.1
+
+spring:
+  profiles:
+    active: oracle
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  #servlet:
+#mybatis
+mybatis-plus:
+  #configuration:
+    #map-underscore-to-camel-case: true
+    #cache-enabled: false
+    #call-setters-on-nulls: true
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:com/tk/*/dao/*.xml;
+
+logging:
+  level: info
+  level.com.yykt: info
+  path: logs/
+  file: tk-migrate.log
